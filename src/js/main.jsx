@@ -1,18 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-//Bootstrap
+// Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap"
 
-// index.css'
+// index.css
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import TrafficLight from './components/TrafficLigth';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <TrafficLight />
   </React.StrictMode>,
 )
